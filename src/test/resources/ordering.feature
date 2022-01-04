@@ -25,7 +25,7 @@ Feature: Ordering drinks
     And a "DietCola Max" is added to the order
     And another "PepsiCoke Zero" is added to the order
     Then the order contains 3 drinks
-    And the order contains 2 "PepsiCoke Zero"
+    And the order contains 3 "PepsiCoke Zero"
     And the order contains 1 "DietCola Max"
 
   @payment
