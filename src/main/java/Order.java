@@ -14,7 +14,7 @@ public class Order {
 
     @Override
     public String toString() {
-        return "Order: " + owner + " / " + recipient + " / { " + contents + "}";
+        return "Order: " + owner + " / " + recipient + " / { " + contents + " }";
     }
 
     static class Drink {
